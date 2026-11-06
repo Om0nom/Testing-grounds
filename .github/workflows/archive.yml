@@ -2,7 +2,7 @@ name: Archive NAS Status
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # toutes les 10 min (UTC)
+    - cron: "3,13,23,33,43,53 * * * *"   # toutes les 10 min (UTC)
   workflow_dispatch:          # permet un lancement manuel
 
 permissions:
